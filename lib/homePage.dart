@@ -121,6 +121,7 @@ class _HomePageState extends State<HomePage> {
                     lineHeight: 25.0,
                     backgroundColor: Colors.purpleAccent,
                     animation: true,
+                    animateFromLastPercent: true,
                     percent: totalAcumulado/10000 > 1.0? 1.0: totalAcumulado/10000,
                     progressColor: Colors.purple,
                     center: Text(
